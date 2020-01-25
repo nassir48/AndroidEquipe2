@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "929292400656",
+    "firebase_url": "https://gobyter-a7077.firebaseio.com",
+    "project_id": "gobyter-a7077",
+    "storage_bucket": "gobyter-a7077.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:929292400656:android:e00ab363fb7a881f553295",
+        "android_client_info": {
+          "package_name": "com.go.by.ter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "929292400656-mrhf6dieius7gtb3fo0iojnrq2u9cc7m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.go.by.ter",
+            "certificate_hash": "5279b326de7712b7d5b7978e3e457943edb5563f"
+          }
+        },
+        {
+          "client_id": "929292400656-2kpe4mk4sfnvtkghdgg1isl8okqj6gj4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBe--jZB2czcb7Jgl0m0dAVXVGhDXhI71c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "929292400656-2kpe4mk4sfnvtkghdgg1isl8okqj6gj4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
