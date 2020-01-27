@@ -16,7 +16,7 @@
         android:layout_margin="50dp"
         />
     <EditText
-        android:id="@+id/login_text_input"
+        android:id="@+id/login_name_input"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/login_applogo"
@@ -35,7 +35,7 @@
         android:id="@+id/login_password_input"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/login_text_input"
+        android:layout_below="@id/login_name_input"
         android:layout_marginTop="6dp"
         android:background="@drawable/input_design"
         android:padding="20dp"
@@ -79,7 +79,7 @@
             android:layout_marginLeft="60dp"/>
     </LinearLayout>
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btn_login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/linear_layout_1"
