@@ -1,7 +1,12 @@
 package com.go.by.ter;
 
+import android.app.ProgressDialog;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.ProgressBar;
 import android.widget.Spinner;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -13,11 +18,13 @@ public class ReservationActivity extends AppCompatActivity {
     Spinner sp2;
     ArrayAdapter<String> adapt;
     ArrayList<String> arrayList = new ArrayList<>();
-
+    Button btn_reservation;
+    ProgressDialog loadingBar;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         setContentView(R.layout.activity_reservation);
+        btn_reservation=findViewById(R.id.btn_reservation);
+        loadingBar=new ProgressDialog(this);
         sp = findViewById(R.id.spDepart);
         sp2 = findViewById(R.id.spArret);
         arrayList.add("arret 1");
@@ -32,6 +39,17 @@ public class ReservationActivity extends AppCompatActivity {
         sp.setOnItemSelectedListener(sp.getOnItemSelectedListener());
         sp2.setOnItemSelectedListener(sp2.getOnItemSelectedListener());
 
-
+        btn_reservation.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(ReservationActivity.this,OptionReservationActivity.class);
+                startActivity(intent);
+                loadingBar.setTitle("Reservation");
+                loadingBar.setMessage("Veuillez patienter...........");
+                loadingBar.setCanceledOnTouchOutside(false);
+                loadingBar.show();
+            }
+        });
     }
+
 }

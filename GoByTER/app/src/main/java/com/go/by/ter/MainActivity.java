@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
                     Users usersData= dataSnapshot.child("Users").child(userNameKey).getValue(Users.class);
 
                     if(usersData.getName().equals(userNameKey)){
-                        if(usersData.getName().equals(userPassword)){
+                        if(usersData.getPassword().equals(userPassword)){
                             Toast.makeText(MainActivity.this, "Connexion succès !!!", Toast.LENGTH_SHORT).show();
                             loadingBar.dismiss();
 

@@ -11,9 +11,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+        <activity android:name=".OptionReservationActivity"></activity>
         <activity android:name=".AdminActivity" />
         <activity android:name=".LoginActivity" />
-        <activity android:name=".ReservationActivity"/>
+        <activity android:name=".ReservationActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
