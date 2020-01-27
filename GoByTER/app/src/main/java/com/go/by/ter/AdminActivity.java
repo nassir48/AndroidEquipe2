@@ -22,6 +22,7 @@ public class AdminActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Paper.book().destroy();
                 Intent intent = new Intent(AdminActivity.this,MainActivity.class);
+                startActivity(intent);
             }
         });
     }

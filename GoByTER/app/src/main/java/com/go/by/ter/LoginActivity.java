@@ -83,12 +83,14 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 if (dataSnapshot.child("Users").child(name).exists()){
-                    Users usersData= dataSnapshot.child("User").child(name).getValue(Users.class);
+                    Users usersData= dataSnapshot.child("Users").child(name).getValue(Users.class);
 
                     if(usersData.getName().equals(name)){
-                        if(usersData.getName().equals(password)){
+                        if(usersData.getPassword().equals(password)){
                             Toast.makeText(LoginActivity.this, "Connexion succès !!!", Toast.LENGTH_SHORT).show();
                             loadingBar.dismiss();
+                            Intent intent=new Intent(LoginActivity.this,AdminActivity.class);
+                            startActivity(intent);
                         }else {
                             loadingBar.dismiss();
                             Toast.makeText(LoginActivity.this, "Mot de passe incorrect", Toast.LENGTH_SHORT).show();
@@ -98,8 +100,7 @@ public class LoginActivity extends AppCompatActivity {
                     Toast.makeText(LoginActivity.this, "Vous n'êtes pas un administrateur", Toast.LENGTH_SHORT).show();
                     loadingBar.dismiss();
 
-                    Intent intent=new Intent(LoginActivity.this,AdminActivity.class);
-                    startActivity(intent);
+
                 }
             }
 

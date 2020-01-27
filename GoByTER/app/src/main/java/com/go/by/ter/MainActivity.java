@@ -76,12 +76,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 if (dataSnapshot.child("Users").child(userNameKey).exists()){
-                    Users usersData= dataSnapshot.child("User").child(userNameKey).getValue(Users.class);
+                    Users usersData= dataSnapshot.child("Users").child(userNameKey).getValue(Users.class);
 
                     if(usersData.getName().equals(userNameKey)){
                         if(usersData.getName().equals(userPassword)){
                             Toast.makeText(MainActivity.this, "Connexion succès !!!", Toast.LENGTH_SHORT).show();
                             loadingBar.dismiss();
+
+                            Intent intent=new Intent(MainActivity.this,AdminActivity.class);
+                            startActivity(intent);
                         }else {
                             loadingBar.dismiss();
                             Toast.makeText(MainActivity.this, "Mot de passe incorrect", Toast.LENGTH_SHORT).show();
@@ -91,8 +94,6 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(MainActivity.this, "Vous n'êtes pas un administrateur", Toast.LENGTH_SHORT).show();
                     loadingBar.dismiss();
 
-                    Intent intent=new Intent(MainActivity.this,AdminActivity.class);
-                    startActivity(intent);
                 }
             }
 
