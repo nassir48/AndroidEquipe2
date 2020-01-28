@@ -27,12 +27,17 @@ public class ReservationActivity extends AppCompatActivity {
         loadingBar=new ProgressDialog(this);
         sp = findViewById(R.id.spDepart);
         sp2 = findViewById(R.id.spArret);
-        arrayList.add("arret 1");
-        arrayList.add("arret 2");
-        arrayList.add("arret 3");
-        arrayList.add("arret 4");
-        arrayList.add("arret 5");
-        arrayList.add("arret 6");
+        arrayList.add("Colobane");
+        arrayList.add("Hann");
+        arrayList.add("Beaux Maraîchers");
+        arrayList.add("Pikine");
+        arrayList.add("Thiaroye");
+        arrayList.add("Yeumbeul");
+        arrayList.add("Keur Massar");
+        arrayList.add(" Keur Mbaye Fall");
+        arrayList.add("Rufisque");
+        arrayList.add("Bargny");
+        arrayList.add("Diamanadio");
         adapt = new ArrayAdapter<>(getApplicationContext(), android.R.layout.simple_dropdown_item_1line, arrayList);
         sp.setAdapter(adapt);
         sp2.setAdapter(adapt);
@@ -46,7 +51,7 @@ public class ReservationActivity extends AppCompatActivity {
                 startActivity(intent);
                 loadingBar.setTitle("Reservation");
                 loadingBar.setMessage("Veuillez patienter...........");
-                loadingBar.setCanceledOnTouchOutside(false);
+                loadingBar.setCanceledOnTouchOutside(true);
                 loadingBar.show();
             }
         });
