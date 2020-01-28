@@ -27,6 +27,7 @@ public class ReservationActivity extends AppCompatActivity {
         loadingBar=new ProgressDialog(this);
         sp = findViewById(R.id.spDepart);
         sp2 = findViewById(R.id.spArret);
+        arrayList.add("Dakar");
         arrayList.add("Colobane");
         arrayList.add("Hann");
         arrayList.add("Beaux Maraîchers");
