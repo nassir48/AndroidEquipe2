@@ -28,7 +28,6 @@ public class LoginActivity extends AppCompatActivity {
     private EditText inputName,inputPasswd;
     private Button loginButton;
     private ProgressDialog loadingBar;
-
     private CheckBox rememberMe;
 
     @Override
@@ -99,7 +98,6 @@ public class LoginActivity extends AppCompatActivity {
                 }else{
                     Toast.makeText(LoginActivity.this, "Vous n'êtes pas un administrateur", Toast.LENGTH_SHORT).show();
                     loadingBar.dismiss();
-
 
                 }
             }
