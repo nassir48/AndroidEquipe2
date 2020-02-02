@@ -23,7 +23,7 @@ public class LocalisationArretActivity extends AppCompatActivity {
         button2 = (Button)findViewById(R.id.button2);
         button1=(Button)findViewById(R.id.button1);
 
-        button2.setOnClickListener(new View.OnClickListener() {
+        button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(LocalisationArretActivity.this, ArretActivity.class);

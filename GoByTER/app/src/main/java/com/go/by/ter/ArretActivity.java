@@ -47,6 +47,8 @@ public class ArretActivity  extends AppCompatActivity {
 
 
         btn_dakar=findViewById(R.id.btn_dakar);
+        btn_colobane=findViewById(R.id.btn_colobane);
+        btn_hanne=findViewById(R.id.btn_hanne);
         myDialog.setContentView(R.layout.activity_info_arret);
 
         aller1=(TextView) myDialog.findViewById(R.id.aller_1);
