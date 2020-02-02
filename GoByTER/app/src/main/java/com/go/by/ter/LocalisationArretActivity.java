@@ -32,7 +32,7 @@ public class LocalisationArretActivity extends AppCompatActivity {
             }
 
         });
-        button1.setOnClickListener(new View.OnClickListener() {
+        button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(LocalisationArretActivity.this, LocalisationActivity.class);

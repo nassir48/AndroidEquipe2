@@ -34,7 +34,7 @@
         <activity android:name="com.go.by.ter.LocalisationArretActivity" />
         <activity android:name="com.go.by.ter.OptionReservationActivity" />
         <activity android:name="com.go.by.ter.AdminActivity" />
-        <activity android:name="com.go.by.ter.LocalisationArretActivity" />
+        <activity android:name="com.go.by.ter.LocalisationActivity" />
         <activity android:name="com.go.by.ter.ArretActivity" />
         <activity android:name="com.go.by.ter.LoginActivity" />
         <activity android:name="com.go.by.ter.ReservationActivity" />
