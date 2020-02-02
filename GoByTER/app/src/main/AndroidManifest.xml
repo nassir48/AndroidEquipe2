@@ -11,7 +11,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
-        <activity android:name=".OptionReservationActivity"></activity>
+        <activity android:name=".RecuActivity"></activity>
+        <activity android:name=".OptionReservationActivity" />
         <activity android:name=".AdminActivity" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".ReservationActivity" />
