@@ -1,9 +1,103 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".OptionReservationActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView
+        android:id="@+id/login_applogo"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="50dp"
+        />
+    <EditText
+        android:id="@+id/prenom"
+        android:layout_below="@+id/login_applogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/input_design"
+        android:padding="17dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:hint="Votre prénom"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <EditText
+        android:id="@+id/nom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/input_design"
+        android:padding="17dp"
+        android:layout_below="@id/prenom"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:hint="Votre nom"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"/>
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nom"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/input_design"
+        android:padding="17dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:hint="Votre telephone"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:inputType="number"
+        android:maxLength="9" />
+    <RadioGroup
+        android:id="@+id/radio"
+        android:layout_below="@id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <com.rey.material.widget.RadioButton
+            android:id="@+id/om"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:text="Orange Money"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="17sp"
+            android:textStyle="bold"/>
+        <com.rey.material.widget.RadioButton
+            android:id="@+id/fm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/om"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:text="Free Money"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/generer_recu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/radio"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/buttons"
+        android:text="Générer un reçu"
+        android:textColor="@android:color/white"/>
+</RelativeLayout>
