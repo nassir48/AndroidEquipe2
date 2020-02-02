@@ -3,4 +3,6 @@
     <string name="title_activity_main2">Main2Activity</string>
     <string name="destination">Destination</string>
     <string name="depart">Départ</string>
+    <string name="aller1">Allée 1</string>
+    <string name="info_arret">Informations sur l\'arret:</string>
 </resources>

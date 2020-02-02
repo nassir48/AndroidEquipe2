@@ -42,8 +42,6 @@ public class ReservationActivity extends AppCompatActivity {
         adapt = new ArrayAdapter<>(getApplicationContext(), android.R.layout.simple_dropdown_item_1line, arrayList);
         sp.setAdapter(adapt);
         sp2.setAdapter(adapt);
-        sp.setOnItemSelectedListener(sp.getOnItemSelectedListener());
-        sp2.setOnItemSelectedListener(sp2.getOnItemSelectedListener());
 
         btn_reservation.setOnClickListener(new View.OnClickListener() {
             @Override

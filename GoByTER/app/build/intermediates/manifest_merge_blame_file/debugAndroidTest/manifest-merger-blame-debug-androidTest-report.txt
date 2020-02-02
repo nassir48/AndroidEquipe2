@@ -3,208 +3,75 @@
 3    package="com.go.by.ter.test" >
 4
 5    <uses-sdk
-5-->/home/rijal/AndroidStudioProjects/AndroidEquipe2/GoByTER/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger1380943176778892211.xml:5:5-74
+5-->/home/rijal/AndroidStudioProjects/AndroidEquipe2/GoByTER/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger1299237685560956389.xml:5:5-74
 6        android:minSdkVersion="21"
-6-->/home/rijal/AndroidStudioProjects/AndroidEquipe2/GoByTER/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger1380943176778892211.xml:5:15-41
+6-->/home/rijal/AndroidStudioProjects/AndroidEquipe2/GoByTER/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger1299237685560956389.xml:5:15-41
 7        android:targetSdkVersion="29" />
-7-->/home/rijal/AndroidStudioProjects/AndroidEquipe2/GoByTER/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger1380943176778892211.xml:5:42-71
+7-->/home/rijal/AndroidStudioProjects/AndroidEquipe2/GoByTER/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger1299237685560956389.xml:5:42-71
 8
 9    <instrumentation
-9-->/home/rijal/AndroidStudioProjects/AndroidEquipe2/GoByTER/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger1380943176778892211.xml:11:5-15:63
+9-->/home/rijal/AndroidStudioProjects/AndroidEquipe2/GoByTER/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger1299237685560956389.xml:11:5-15:63
 10        android:name="androidx.test.runner.AndroidJUnitRunner"
-10-->/home/rijal/AndroidStudioProjects/AndroidEquipe2/GoByTER/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger1380943176778892211.xml:11:22-76
+10-->/home/rijal/AndroidStudioProjects/AndroidEquipe2/GoByTER/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger1299237685560956389.xml:11:22-76
 11        android:functionalTest="false"
-11-->/home/rijal/AndroidStudioProjects/AndroidEquipe2/GoByTER/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger1380943176778892211.xml:14:22-52
+11-->/home/rijal/AndroidStudioProjects/AndroidEquipe2/GoByTER/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger1299237685560956389.xml:14:22-52
 12        android:handleProfiling="false"
-12-->/home/rijal/AndroidStudioProjects/AndroidEquipe2/GoByTER/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger1380943176778892211.xml:13:22-53
+12-->/home/rijal/AndroidStudioProjects/AndroidEquipe2/GoByTER/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger1299237685560956389.xml:13:22-53
 13        android:label="Tests for com.go.by.ter"
-13-->/home/rijal/AndroidStudioProjects/AndroidEquipe2/GoByTER/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger1380943176778892211.xml:15:22-61
+13-->/home/rijal/AndroidStudioProjects/AndroidEquipe2/GoByTER/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger1299237685560956389.xml:15:22-61
 14        android:targetPackage="com.go.by.ter" />
-14-->/home/rijal/AndroidStudioProjects/AndroidEquipe2/GoByTER/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger1380943176778892211.xml:12:22-59
-15    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
-16    <!-- <uses-sdk android:minSdkVersion="14"/> -->
-17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-17-->[com.google.firebase:firebase-database:19.2.0] /home/rijal/.gradle/caches/transforms-2/files-2.1/f59ae09a10bc31a767032e42e3c780dc/firebase-database-19.2.0/AndroidManifest.xml:25:5-79
-17-->[com.google.firebase:firebase-database:19.2.0] /home/rijal/.gradle/caches/transforms-2/files-2.1/f59ae09a10bc31a767032e42e3c780dc/firebase-database-19.2.0/AndroidManifest.xml:25:22-76
-18    <uses-permission android:name="android.permission.INTERNET" />
-18-->[com.google.firebase:firebase-database:19.2.0] /home/rijal/.gradle/caches/transforms-2/files-2.1/f59ae09a10bc31a767032e42e3c780dc/firebase-database-19.2.0/AndroidManifest.xml:26:5-67
-18-->[com.google.firebase:firebase-database:19.2.0] /home/rijal/.gradle/caches/transforms-2/files-2.1/f59ae09a10bc31a767032e42e3c780dc/firebase-database-19.2.0/AndroidManifest.xml:26:22-64
-19    <uses-permission android:name="android.permission.REORDER_TASKS" />
-19-->[androidx.test:core:1.2.0] /home/rijal/.gradle/caches/transforms-2/files-2.1/cc57a0a797f53518904547de8b6b2a9a/core-1.2.0/AndroidManifest.xml:24:5-72
-19-->[androidx.test:core:1.2.0] /home/rijal/.gradle/caches/transforms-2/files-2.1/cc57a0a797f53518904547de8b6b2a9a/core-1.2.0/AndroidManifest.xml:24:22-69
-20    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
-20-->[com.google.android.gms:play-services-measurement-api:17.2.2] /home/rijal/.gradle/caches/transforms-2/files-2.1/b7de1c70ba309057cf28daf9ae021506/play-services-measurement-api-17.2.2/AndroidManifest.xml:24:5-68
-20-->[com.google.android.gms:play-services-measurement-api:17.2.2] /home/rijal/.gradle/caches/transforms-2/files-2.1/b7de1c70ba309057cf28daf9ae021506/play-services-measurement-api-17.2.2/AndroidManifest.xml:24:22-65
-21    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-21-->[com.google.firebase:firebase-iid:20.0.2] /home/rijal/.gradle/caches/transforms-2/files-2.1/301d4b5dd70bd95450fbd3ed00be4090/firebase-iid-20.0.2/AndroidManifest.xml:26:5-82
-21-->[com.google.firebase:firebase-iid:20.0.2] /home/rijal/.gradle/caches/transforms-2/files-2.1/301d4b5dd70bd95450fbd3ed00be4090/firebase-iid-20.0.2/AndroidManifest.xml:26:22-79
-22    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
-22-->[com.google.android.gms:play-services-measurement:17.2.2] /home/rijal/.gradle/caches/transforms-2/files-2.1/6dded8e8ed548bb485a3dac5a6627326/play-services-measurement-17.2.2/AndroidManifest.xml:26:5-110
-22-->[com.google.android.gms:play-services-measurement:17.2.2] /home/rijal/.gradle/caches/transforms-2/files-2.1/6dded8e8ed548bb485a3dac5a6627326/play-services-measurement-17.2.2/AndroidManifest.xml:26:22-107
-23
-24    <application android:debuggable="true" >
-24-->/home/rijal/AndroidStudioProjects/AndroidEquipe2/GoByTER/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger1380943176778892211.xml:7:5-9:19
-24-->/home/rijal/AndroidStudioProjects/AndroidEquipe2/GoByTER/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger1380943176778892211.xml:7:18-43
-25        <uses-library android:name="android.test.runner" />
-25-->/home/rijal/AndroidStudioProjects/AndroidEquipe2/GoByTER/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger1380943176778892211.xml:8:9-60
-25-->/home/rijal/AndroidStudioProjects/AndroidEquipe2/GoByTER/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger1380943176778892211.xml:8:23-57
-26
-27        <service
-27-->[com.google.firebase:firebase-database:19.2.0] /home/rijal/.gradle/caches/transforms-2/files-2.1/f59ae09a10bc31a767032e42e3c780dc/firebase-database-19.2.0/AndroidManifest.xml:29:9-35:19
-28            android:name="com.google.firebase.components.ComponentDiscoveryService"
-28-->[com.google.firebase:firebase-database:19.2.0] /home/rijal/.gradle/caches/transforms-2/files-2.1/f59ae09a10bc31a767032e42e3c780dc/firebase-database-19.2.0/AndroidManifest.xml:30:13-84
-29            android:directBootAware="true"
-29-->[com.google.firebase:firebase-common:19.3.0] /home/rijal/.gradle/caches/transforms-2/files-2.1/e3f2ca73e01a864cfb115b865a6399ba/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
-30            android:exported="false" >
-30-->[com.google.firebase:firebase-database:19.2.0] /home/rijal/.gradle/caches/transforms-2/files-2.1/f59ae09a10bc31a767032e42e3c780dc/firebase-database-19.2.0/AndroidManifest.xml:31:13-37
-31            <meta-data
-31-->[com.google.firebase:firebase-database:19.2.0] /home/rijal/.gradle/caches/transforms-2/files-2.1/f59ae09a10bc31a767032e42e3c780dc/firebase-database-19.2.0/AndroidManifest.xml:32:13-34:85
-32                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-32-->[com.google.firebase:firebase-database:19.2.0] /home/rijal/.gradle/caches/transforms-2/files-2.1/f59ae09a10bc31a767032e42e3c780dc/firebase-database-19.2.0/AndroidManifest.xml:33:17-109
-33                android:value="com.google.firebase.components.ComponentRegistrar" />
-33-->[com.google.firebase:firebase-database:19.2.0] /home/rijal/.gradle/caches/transforms-2/files-2.1/f59ae09a10bc31a767032e42e3c780dc/firebase-database-19.2.0/AndroidManifest.xml:34:17-82
-34            <meta-data
-34-->[com.google.android.gms:play-services-measurement-api:17.2.2] /home/rijal/.gradle/caches/transforms-2/files-2.1/b7de1c70ba309057cf28daf9ae021506/play-services-measurement-api-17.2.2/AndroidManifest.xml:30:13-32:85
-35                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-35-->[com.google.android.gms:play-services-measurement-api:17.2.2] /home/rijal/.gradle/caches/transforms-2/files-2.1/b7de1c70ba309057cf28daf9ae021506/play-services-measurement-api-17.2.2/AndroidManifest.xml:31:17-139
-36                android:value="com.google.firebase.components.ComponentRegistrar" />
-36-->[com.google.android.gms:play-services-measurement-api:17.2.2] /home/rijal/.gradle/caches/transforms-2/files-2.1/b7de1c70ba309057cf28daf9ae021506/play-services-measurement-api-17.2.2/AndroidManifest.xml:32:17-82
-37            <meta-data
-37-->[com.google.firebase:firebase-iid:20.0.2] /home/rijal/.gradle/caches/transforms-2/files-2.1/301d4b5dd70bd95450fbd3ed00be4090/firebase-iid-20.0.2/AndroidManifest.xml:32:13-34:85
-38                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
-38-->[com.google.firebase:firebase-iid:20.0.2] /home/rijal/.gradle/caches/transforms-2/files-2.1/301d4b5dd70bd95450fbd3ed00be4090/firebase-iid-20.0.2/AndroidManifest.xml:33:17-96
-39                android:value="com.google.firebase.components.ComponentRegistrar" />
-39-->[com.google.firebase:firebase-iid:20.0.2] /home/rijal/.gradle/caches/transforms-2/files-2.1/301d4b5dd70bd95450fbd3ed00be4090/firebase-iid-20.0.2/AndroidManifest.xml:34:17-82
-40        </service>
-41
-42        <activity
-42-->[androidx.test:core:1.2.0] /home/rijal/.gradle/caches/transforms-2/files-2.1/cc57a0a797f53518904547de8b6b2a9a/core-1.2.0/AndroidManifest.xml:27:9-33:20
-43            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
-43-->[androidx.test:core:1.2.0] /home/rijal/.gradle/caches/transforms-2/files-2.1/cc57a0a797f53518904547de8b6b2a9a/core-1.2.0/AndroidManifest.xml:28:13-99
-44            android:theme="@android:style/Theme" >
-44-->[androidx.test:core:1.2.0] /home/rijal/.gradle/caches/transforms-2/files-2.1/cc57a0a797f53518904547de8b6b2a9a/core-1.2.0/AndroidManifest.xml:29:13-49
-45            <intent-filter>
-45-->[androidx.test:core:1.2.0] /home/rijal/.gradle/caches/transforms-2/files-2.1/cc57a0a797f53518904547de8b6b2a9a/core-1.2.0/AndroidManifest.xml:30:13-32:29
-46                <action android:name="android.intent.action.MAIN" />
-46-->[androidx.test:core:1.2.0] /home/rijal/.gradle/caches/transforms-2/files-2.1/cc57a0a797f53518904547de8b6b2a9a/core-1.2.0/AndroidManifest.xml:31:17-69
-46-->[androidx.test:core:1.2.0] /home/rijal/.gradle/caches/transforms-2/files-2.1/cc57a0a797f53518904547de8b6b2a9a/core-1.2.0/AndroidManifest.xml:31:25-66
-47            </intent-filter>
-48        </activity>
-49        <activity
-49-->[androidx.test:core:1.2.0] /home/rijal/.gradle/caches/transforms-2/files-2.1/cc57a0a797f53518904547de8b6b2a9a/core-1.2.0/AndroidManifest.xml:34:9-40:20
-50            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
-50-->[androidx.test:core:1.2.0] /home/rijal/.gradle/caches/transforms-2/files-2.1/cc57a0a797f53518904547de8b6b2a9a/core-1.2.0/AndroidManifest.xml:35:13-95
-51            android:theme="@android:style/Theme" >
-51-->[androidx.test:core:1.2.0] /home/rijal/.gradle/caches/transforms-2/files-2.1/cc57a0a797f53518904547de8b6b2a9a/core-1.2.0/AndroidManifest.xml:36:13-49
-52            <intent-filter>
-52-->[androidx.test:core:1.2.0] /home/rijal/.gradle/caches/transforms-2/files-2.1/cc57a0a797f53518904547de8b6b2a9a/core-1.2.0/AndroidManifest.xml:30:13-32:29
-53                <action android:name="android.intent.action.MAIN" />
-53-->[androidx.test:core:1.2.0] /home/rijal/.gradle/caches/transforms-2/files-2.1/cc57a0a797f53518904547de8b6b2a9a/core-1.2.0/AndroidManifest.xml:31:17-69
-53-->[androidx.test:core:1.2.0] /home/rijal/.gradle/caches/transforms-2/files-2.1/cc57a0a797f53518904547de8b6b2a9a/core-1.2.0/AndroidManifest.xml:31:25-66
-54            </intent-filter>
-55        </activity>
-56        <activity
-56-->[androidx.test:core:1.2.0] /home/rijal/.gradle/caches/transforms-2/files-2.1/cc57a0a797f53518904547de8b6b2a9a/core-1.2.0/AndroidManifest.xml:41:9-47:20
-57            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
-57-->[androidx.test:core:1.2.0] /home/rijal/.gradle/caches/transforms-2/files-2.1/cc57a0a797f53518904547de8b6b2a9a/core-1.2.0/AndroidManifest.xml:42:13-103
-58            android:theme="@android:style/Theme.Dialog" >
-58-->[androidx.test:core:1.2.0] /home/rijal/.gradle/caches/transforms-2/files-2.1/cc57a0a797f53518904547de8b6b2a9a/core-1.2.0/AndroidManifest.xml:43:13-56
-59            <intent-filter>
-59-->[androidx.test:core:1.2.0] /home/rijal/.gradle/caches/transforms-2/files-2.1/cc57a0a797f53518904547de8b6b2a9a/core-1.2.0/AndroidManifest.xml:30:13-32:29
-60                <action android:name="android.intent.action.MAIN" />
-60-->[androidx.test:core:1.2.0] /home/rijal/.gradle/caches/transforms-2/files-2.1/cc57a0a797f53518904547de8b6b2a9a/core-1.2.0/AndroidManifest.xml:31:17-69
-60-->[androidx.test:core:1.2.0] /home/rijal/.gradle/caches/transforms-2/files-2.1/cc57a0a797f53518904547de8b6b2a9a/core-1.2.0/AndroidManifest.xml:31:25-66
-61            </intent-filter>
-62        </activity>
-63
-64        <receiver
-64-->[com.google.firebase:firebase-iid:20.0.2] /home/rijal/.gradle/caches/transforms-2/files-2.1/301d4b5dd70bd95450fbd3ed00be4090/firebase-iid-20.0.2/AndroidManifest.xml:37:9-44:20
-65            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-65-->[com.google.firebase:firebase-iid:20.0.2] /home/rijal/.gradle/caches/transforms-2/files-2.1/301d4b5dd70bd95450fbd3ed00be4090/firebase-iid-20.0.2/AndroidManifest.xml:38:13-78
-66            android:exported="true"
-66-->[com.google.firebase:firebase-iid:20.0.2] /home/rijal/.gradle/caches/transforms-2/files-2.1/301d4b5dd70bd95450fbd3ed00be4090/firebase-iid-20.0.2/AndroidManifest.xml:39:13-36
-67            android:permission="com.google.android.c2dm.permission.SEND" >
-67-->[com.google.firebase:firebase-iid:20.0.2] /home/rijal/.gradle/caches/transforms-2/files-2.1/301d4b5dd70bd95450fbd3ed00be4090/firebase-iid-20.0.2/AndroidManifest.xml:40:13-73
-68            <intent-filter>
-68-->[com.google.firebase:firebase-iid:20.0.2] /home/rijal/.gradle/caches/transforms-2/files-2.1/301d4b5dd70bd95450fbd3ed00be4090/firebase-iid-20.0.2/AndroidManifest.xml:41:13-43:29
-69                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-69-->[com.google.firebase:firebase-iid:20.0.2] /home/rijal/.gradle/caches/transforms-2/files-2.1/301d4b5dd70bd95450fbd3ed00be4090/firebase-iid-20.0.2/AndroidManifest.xml:42:17-81
-69-->[com.google.firebase:firebase-iid:20.0.2] /home/rijal/.gradle/caches/transforms-2/files-2.1/301d4b5dd70bd95450fbd3ed00be4090/firebase-iid-20.0.2/AndroidManifest.xml:42:25-78
-70            </intent-filter>
-71        </receiver>
-72
-73        <activity
-73-->[com.google.android.gms:play-services-base:17.0.0] /home/rijal/.gradle/caches/transforms-2/files-2.1/64aa804a65a9e3423a6cc11b33d51f06/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
-74            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-74-->[com.google.android.gms:play-services-base:17.0.0] /home/rijal/.gradle/caches/transforms-2/files-2.1/64aa804a65a9e3423a6cc11b33d51f06/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
-75            android:exported="false"
-75-->[com.google.android.gms:play-services-base:17.0.0] /home/rijal/.gradle/caches/transforms-2/files-2.1/64aa804a65a9e3423a6cc11b33d51f06/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
-76            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-76-->[com.google.android.gms:play-services-base:17.0.0] /home/rijal/.gradle/caches/transforms-2/files-2.1/64aa804a65a9e3423a6cc11b33d51f06/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
-77
-78        <receiver
-78-->[com.google.android.gms:play-services-measurement:17.2.2] /home/rijal/.gradle/caches/transforms-2/files-2.1/6dded8e8ed548bb485a3dac5a6627326/play-services-measurement-17.2.2/AndroidManifest.xml:29:9-33:20
-79            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-79-->[com.google.android.gms:play-services-measurement:17.2.2] /home/rijal/.gradle/caches/transforms-2/files-2.1/6dded8e8ed548bb485a3dac5a6627326/play-services-measurement-17.2.2/AndroidManifest.xml:30:13-85
-80            android:enabled="true"
-80-->[com.google.android.gms:play-services-measurement:17.2.2] /home/rijal/.gradle/caches/transforms-2/files-2.1/6dded8e8ed548bb485a3dac5a6627326/play-services-measurement-17.2.2/AndroidManifest.xml:31:13-35
-81            android:exported="false" >
-81-->[com.google.android.gms:play-services-measurement:17.2.2] /home/rijal/.gradle/caches/transforms-2/files-2.1/6dded8e8ed548bb485a3dac5a6627326/play-services-measurement-17.2.2/AndroidManifest.xml:32:13-37
-82        </receiver>
-83        <receiver
-83-->[com.google.android.gms:play-services-measurement:17.2.2] /home/rijal/.gradle/caches/transforms-2/files-2.1/6dded8e8ed548bb485a3dac5a6627326/play-services-measurement-17.2.2/AndroidManifest.xml:34:9-42:20
-84            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
-84-->[com.google.android.gms:play-services-measurement:17.2.2] /home/rijal/.gradle/caches/transforms-2/files-2.1/6dded8e8ed548bb485a3dac5a6627326/play-services-measurement-17.2.2/AndroidManifest.xml:35:13-100
-85            android:enabled="true"
-85-->[com.google.android.gms:play-services-measurement:17.2.2] /home/rijal/.gradle/caches/transforms-2/files-2.1/6dded8e8ed548bb485a3dac5a6627326/play-services-measurement-17.2.2/AndroidManifest.xml:36:13-35
-86            android:exported="true"
-86-->[com.google.android.gms:play-services-measurement:17.2.2] /home/rijal/.gradle/caches/transforms-2/files-2.1/6dded8e8ed548bb485a3dac5a6627326/play-services-measurement-17.2.2/AndroidManifest.xml:37:13-36
-87            android:permission="android.permission.INSTALL_PACKAGES" >
-87-->[com.google.android.gms:play-services-measurement:17.2.2] /home/rijal/.gradle/caches/transforms-2/files-2.1/6dded8e8ed548bb485a3dac5a6627326/play-services-measurement-17.2.2/AndroidManifest.xml:38:13-69
-88            <intent-filter>
-88-->[com.google.android.gms:play-services-measurement:17.2.2] /home/rijal/.gradle/caches/transforms-2/files-2.1/6dded8e8ed548bb485a3dac5a6627326/play-services-measurement-17.2.2/AndroidManifest.xml:39:13-41:29
-89                <action android:name="com.android.vending.INSTALL_REFERRER" />
-89-->[com.google.android.gms:play-services-measurement:17.2.2] /home/rijal/.gradle/caches/transforms-2/files-2.1/6dded8e8ed548bb485a3dac5a6627326/play-services-measurement-17.2.2/AndroidManifest.xml:40:17-79
-89-->[com.google.android.gms:play-services-measurement:17.2.2] /home/rijal/.gradle/caches/transforms-2/files-2.1/6dded8e8ed548bb485a3dac5a6627326/play-services-measurement-17.2.2/AndroidManifest.xml:40:25-76
-90            </intent-filter>
-91        </receiver>
-92
-93        <service
-93-->[com.google.android.gms:play-services-measurement:17.2.2] /home/rijal/.gradle/caches/transforms-2/files-2.1/6dded8e8ed548bb485a3dac5a6627326/play-services-measurement-17.2.2/AndroidManifest.xml:44:9-47:40
-94            android:name="com.google.android.gms.measurement.AppMeasurementService"
-94-->[com.google.android.gms:play-services-measurement:17.2.2] /home/rijal/.gradle/caches/transforms-2/files-2.1/6dded8e8ed548bb485a3dac5a6627326/play-services-measurement-17.2.2/AndroidManifest.xml:45:13-84
-95            android:enabled="true"
-95-->[com.google.android.gms:play-services-measurement:17.2.2] /home/rijal/.gradle/caches/transforms-2/files-2.1/6dded8e8ed548bb485a3dac5a6627326/play-services-measurement-17.2.2/AndroidManifest.xml:46:13-35
-96            android:exported="false" />
-96-->[com.google.android.gms:play-services-measurement:17.2.2] /home/rijal/.gradle/caches/transforms-2/files-2.1/6dded8e8ed548bb485a3dac5a6627326/play-services-measurement-17.2.2/AndroidManifest.xml:47:13-37
-97        <service
-97-->[com.google.android.gms:play-services-measurement:17.2.2] /home/rijal/.gradle/caches/transforms-2/files-2.1/6dded8e8ed548bb485a3dac5a6627326/play-services-measurement-17.2.2/AndroidManifest.xml:48:9-52:72
-98            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-98-->[com.google.android.gms:play-services-measurement:17.2.2] /home/rijal/.gradle/caches/transforms-2/files-2.1/6dded8e8ed548bb485a3dac5a6627326/play-services-measurement-17.2.2/AndroidManifest.xml:49:13-87
-99            android:enabled="true"
-99-->[com.google.android.gms:play-services-measurement:17.2.2] /home/rijal/.gradle/caches/transforms-2/files-2.1/6dded8e8ed548bb485a3dac5a6627326/play-services-measurement-17.2.2/AndroidManifest.xml:50:13-35
-100            android:exported="false"
-100-->[com.google.android.gms:play-services-measurement:17.2.2] /home/rijal/.gradle/caches/transforms-2/files-2.1/6dded8e8ed548bb485a3dac5a6627326/play-services-measurement-17.2.2/AndroidManifest.xml:51:13-37
-101            android:permission="android.permission.BIND_JOB_SERVICE" />
-101-->[com.google.android.gms:play-services-measurement:17.2.2] /home/rijal/.gradle/caches/transforms-2/files-2.1/6dded8e8ed548bb485a3dac5a6627326/play-services-measurement-17.2.2/AndroidManifest.xml:52:13-69
-102
-103        <provider
-103-->[com.google.firebase:firebase-common:19.3.0] /home/rijal/.gradle/caches/transforms-2/files-2.1/e3f2ca73e01a864cfb115b865a6399ba/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
-104            android:name="com.google.firebase.provider.FirebaseInitProvider"
-104-->[com.google.firebase:firebase-common:19.3.0] /home/rijal/.gradle/caches/transforms-2/files-2.1/e3f2ca73e01a864cfb115b865a6399ba/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
-105            android:authorities="com.go.by.ter.test.firebaseinitprovider"
-105-->[com.google.firebase:firebase-common:19.3.0] /home/rijal/.gradle/caches/transforms-2/files-2.1/e3f2ca73e01a864cfb115b865a6399ba/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
-106            android:exported="false"
-106-->[com.google.firebase:firebase-common:19.3.0] /home/rijal/.gradle/caches/transforms-2/files-2.1/e3f2ca73e01a864cfb115b865a6399ba/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
-107            android:initOrder="100" />
-107-->[com.google.firebase:firebase-common:19.3.0] /home/rijal/.gradle/caches/transforms-2/files-2.1/e3f2ca73e01a864cfb115b865a6399ba/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
-108
-109        <meta-data
-109-->[com.google.android.gms:play-services-basement:17.0.0] /home/rijal/.gradle/caches/transforms-2/files-2.1/11d35ba4a6f0546e5a35806f525827c7/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
-110            android:name="com.google.android.gms.version"
-110-->[com.google.android.gms:play-services-basement:17.0.0] /home/rijal/.gradle/caches/transforms-2/files-2.1/11d35ba4a6f0546e5a35806f525827c7/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
-111            android:value="@integer/google_play_services_version" />
-111-->[com.google.android.gms:play-services-basement:17.0.0] /home/rijal/.gradle/caches/transforms-2/files-2.1/11d35ba4a6f0546e5a35806f525827c7/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
-112    </application>
-113
-114</manifest>
+14-->/home/rijal/AndroidStudioProjects/AndroidEquipe2/GoByTER/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger1299237685560956389.xml:12:22-59
+15
+16    <uses-permission android:name="android.permission.REORDER_TASKS" />
+16-->[androidx.test:core:1.2.0] /home/rijal/.gradle/caches/transforms-2/files-2.1/cc57a0a797f53518904547de8b6b2a9a/core-1.2.0/AndroidManifest.xml:24:5-72
+16-->[androidx.test:core:1.2.0] /home/rijal/.gradle/caches/transforms-2/files-2.1/cc57a0a797f53518904547de8b6b2a9a/core-1.2.0/AndroidManifest.xml:24:22-69
+17
+18    <application android:debuggable="true" >
+18-->/home/rijal/AndroidStudioProjects/AndroidEquipe2/GoByTER/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger1299237685560956389.xml:7:5-9:19
+18-->/home/rijal/AndroidStudioProjects/AndroidEquipe2/GoByTER/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger1299237685560956389.xml:7:18-43
+19        <uses-library android:name="android.test.runner" />
+19-->/home/rijal/AndroidStudioProjects/AndroidEquipe2/GoByTER/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger1299237685560956389.xml:8:9-60
+19-->/home/rijal/AndroidStudioProjects/AndroidEquipe2/GoByTER/app/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger1299237685560956389.xml:8:23-57
+20
+21        <activity
+21-->[androidx.test:core:1.2.0] /home/rijal/.gradle/caches/transforms-2/files-2.1/cc57a0a797f53518904547de8b6b2a9a/core-1.2.0/AndroidManifest.xml:27:9-33:20
+22            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+22-->[androidx.test:core:1.2.0] /home/rijal/.gradle/caches/transforms-2/files-2.1/cc57a0a797f53518904547de8b6b2a9a/core-1.2.0/AndroidManifest.xml:28:13-99
+23            android:theme="@android:style/Theme" >
+23-->[androidx.test:core:1.2.0] /home/rijal/.gradle/caches/transforms-2/files-2.1/cc57a0a797f53518904547de8b6b2a9a/core-1.2.0/AndroidManifest.xml:29:13-49
+24            <intent-filter>
+24-->[androidx.test:core:1.2.0] /home/rijal/.gradle/caches/transforms-2/files-2.1/cc57a0a797f53518904547de8b6b2a9a/core-1.2.0/AndroidManifest.xml:30:13-32:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->[androidx.test:core:1.2.0] /home/rijal/.gradle/caches/transforms-2/files-2.1/cc57a0a797f53518904547de8b6b2a9a/core-1.2.0/AndroidManifest.xml:31:17-69
+25-->[androidx.test:core:1.2.0] /home/rijal/.gradle/caches/transforms-2/files-2.1/cc57a0a797f53518904547de8b6b2a9a/core-1.2.0/AndroidManifest.xml:31:25-66
+26            </intent-filter>
+27        </activity>
+28        <activity
+28-->[androidx.test:core:1.2.0] /home/rijal/.gradle/caches/transforms-2/files-2.1/cc57a0a797f53518904547de8b6b2a9a/core-1.2.0/AndroidManifest.xml:34:9-40:20
+29            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+29-->[androidx.test:core:1.2.0] /home/rijal/.gradle/caches/transforms-2/files-2.1/cc57a0a797f53518904547de8b6b2a9a/core-1.2.0/AndroidManifest.xml:35:13-95
+30            android:theme="@android:style/Theme" >
+30-->[androidx.test:core:1.2.0] /home/rijal/.gradle/caches/transforms-2/files-2.1/cc57a0a797f53518904547de8b6b2a9a/core-1.2.0/AndroidManifest.xml:36:13-49
+31            <intent-filter>
+31-->[androidx.test:core:1.2.0] /home/rijal/.gradle/caches/transforms-2/files-2.1/cc57a0a797f53518904547de8b6b2a9a/core-1.2.0/AndroidManifest.xml:30:13-32:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->[androidx.test:core:1.2.0] /home/rijal/.gradle/caches/transforms-2/files-2.1/cc57a0a797f53518904547de8b6b2a9a/core-1.2.0/AndroidManifest.xml:31:17-69
+32-->[androidx.test:core:1.2.0] /home/rijal/.gradle/caches/transforms-2/files-2.1/cc57a0a797f53518904547de8b6b2a9a/core-1.2.0/AndroidManifest.xml:31:25-66
+33            </intent-filter>
+34        </activity>
+35        <activity
+35-->[androidx.test:core:1.2.0] /home/rijal/.gradle/caches/transforms-2/files-2.1/cc57a0a797f53518904547de8b6b2a9a/core-1.2.0/AndroidManifest.xml:41:9-47:20
+36            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+36-->[androidx.test:core:1.2.0] /home/rijal/.gradle/caches/transforms-2/files-2.1/cc57a0a797f53518904547de8b6b2a9a/core-1.2.0/AndroidManifest.xml:42:13-103
+37            android:theme="@android:style/Theme.Dialog" >
+37-->[androidx.test:core:1.2.0] /home/rijal/.gradle/caches/transforms-2/files-2.1/cc57a0a797f53518904547de8b6b2a9a/core-1.2.0/AndroidManifest.xml:43:13-56
+38            <intent-filter>
+38-->[androidx.test:core:1.2.0] /home/rijal/.gradle/caches/transforms-2/files-2.1/cc57a0a797f53518904547de8b6b2a9a/core-1.2.0/AndroidManifest.xml:30:13-32:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->[androidx.test:core:1.2.0] /home/rijal/.gradle/caches/transforms-2/files-2.1/cc57a0a797f53518904547de8b6b2a9a/core-1.2.0/AndroidManifest.xml:31:17-69
+39-->[androidx.test:core:1.2.0] /home/rijal/.gradle/caches/transforms-2/files-2.1/cc57a0a797f53518904547de8b6b2a9a/core-1.2.0/AndroidManifest.xml:31:25-66
+40            </intent-filter>
+41        </activity>
+42    </application>
+43
+44</manifest>

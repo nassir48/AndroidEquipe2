@@ -14,6 +14,8 @@
         <activity android:name=".OptionReservationActivity"></activity>
         <activity android:name=".AdminActivity" />
         <activity android:name=".LoginActivity" />
+        <activity android:name=".ArretActivity" />
+        <activity android:name=".LocalisationArretActivity" />
         <activity android:name=".ReservationActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
