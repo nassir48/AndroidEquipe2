@@ -28,9 +28,18 @@ public class LocalisationArretActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent=new Intent(LocalisationArretActivity.this, ArretActivity.class);
                 startActivity(intent);
+
             }
+
         });
+        button1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(LocalisationArretActivity.this, LocalisationActivity.class);
+                startActivity(intent);
 
+            }
 
+        });
     }
 }

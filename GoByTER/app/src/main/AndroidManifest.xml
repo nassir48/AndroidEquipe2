@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.go.by.ter">
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
 
     <application
         android:allowBackup="true"
@@ -12,6 +14,7 @@
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
         <activity android:name=".RecuActivity"></activity>
+        <activity android:name=".LocalisationArretActivity"></activity>
         <activity android:name=".OptionReservationActivity" />
         <activity android:name=".AdminActivity" />
         <activity android:name=".LocalisationArretActivity" />
