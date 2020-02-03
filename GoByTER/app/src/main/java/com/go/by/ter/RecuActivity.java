@@ -19,6 +19,7 @@ Button btn_recu;
             @Override
             public void onClick(View v) {
                 Intent intent= new Intent(RecuActivity.this,MainActivity.class);
+                startActivity(intent);
             }
         });
     }
