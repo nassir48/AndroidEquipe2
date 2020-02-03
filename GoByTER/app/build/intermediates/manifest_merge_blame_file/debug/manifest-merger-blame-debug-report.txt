@@ -11,8 +11,8 @@
 9-->C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-11-->C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:5:1-74
-11-->C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:5:18-72
+11-->C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:5:5-78
+11-->C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:5:22-76
 12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 12-->C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:6:5-80
 12-->C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:6:22-78
