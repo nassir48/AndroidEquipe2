@@ -14,6 +14,7 @@
         android:layout_margin="50dp"
         />
     <TextView
+        android:id="@+id/reservation"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/login_applogo"
@@ -22,5 +23,42 @@
         android:textStyle="bold"
         android:layout_centerHorizontal="true"
         android:textColor="@color/colorPrimaryDark"/>
+    <TextView
+        android:id="@+id/retour_1"
+        android:layout_below="@+id/reservation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Trajet:    Dakar Diamniadio                           Passager: 1"
+        android:textColor="@color/colorAccent"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/re"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:layout_below="@id/retour_1"
+        android:text="Total: 1500 FCFA                                            Frais:100 FCFA"
+        android:textColor="@color/colorAccent"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/ret"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:layout_below="@id/re"
+        android:text="Ce reçcu est personnel et il estvalable pendant une semaine"
+        android:textColor="@android:color/black"
+        android:textSize="15sp" />
+    <Button
+        android:id="@+id/btn_recu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttons"
+        android:layout_marginTop="5dp"
+        android:text="Valider"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/ret"/>
 
 </RelativeLayout>
