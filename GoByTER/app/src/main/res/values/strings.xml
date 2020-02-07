@@ -5,4 +5,5 @@
     <string name="depart">Départ</string>
     <string name="aller1">Allée 1</string>
     <string name="info_arret">Informations sur l\'arret:</string>
+    <string name="title_activity_map">Map</string>
 </resources>
