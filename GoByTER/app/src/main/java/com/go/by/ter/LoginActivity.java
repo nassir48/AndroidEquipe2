@@ -84,6 +84,7 @@ public class LoginActivity extends AppCompatActivity {
                 if (dataSnapshot.child("Users").child(name).exists()){
                     Users usersData= dataSnapshot.child("Users").child(name).getValue(Users.class);
 
+
                     if(usersData.getName().equals(name)){
                         if(usersData.getPassword().equals(password)){
                             Toast.makeText(LoginActivity.this, "Connexion succès !!!", Toast.LENGTH_SHORT).show();

@@ -14,51 +14,129 @@
         android:layout_margin="50dp"
         />
     <TextView
-        android:id="@+id/reservation"
+        android:id="@+id/recuT"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="Reçu"
+        android:textSize="40sp"
         android:layout_below="@id/login_applogo"
-        android:text="RESERVATION"
-        android:textSize="50sp"
-        android:textStyle="bold"
-        android:layout_centerHorizontal="true"
-        android:textColor="@color/colorPrimaryDark"/>
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_centerHorizontal="true"/>
     <TextView
-        android:id="@+id/retour_1"
-        android:layout_below="@+id/reservation"
+        android:id="@+id/d"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
-        android:text="Trajet:    Dakar Diamniadio                           Passager: 1"
-        android:textColor="@color/colorAccent"
-        android:textSize="15sp" />
+        android:layout_below="@id/recuT"
+        android:text="Depart:"
+        android:textSize="17sp"/>
+    <TextView
+        android:id="@+id/depart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/recuT"
+        android:layout_marginLeft="90dp"
+        android:text="depart"
+        android:textSize="17sp"/>
 
     <TextView
-        android:id="@+id/re"
+        android:id="@+id/a"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="31dp"
-        android:layout_below="@id/retour_1"
-        android:text="Total: 1500 FCFA                                            Frais:100 FCFA"
-        android:textColor="@color/colorAccent"
-        android:textSize="15sp" />
+        android:layout_below="@id/d"
+        android:text="Arrivée :"
+        android:textSize="17sp"/>
     <TextView
-        android:id="@+id/ret"
+        android:id="@+id/arrivee"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="31dp"
-        android:layout_below="@id/re"
-        android:text="Ce reçcu est personnel et il estvalable pendant une semaine"
-        android:textColor="@android:color/black"
-        android:textSize="15sp" />
+        android:layout_below="@id/depart"
+        android:layout_marginLeft="90dp"
+        android:text="arrivee"
+        android:textSize="17sp"/>
+
+    <TextView
+        android:id="@+id/n"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/a"
+        android:text="Nom :"
+        android:textSize="17sp"/>
+    <TextView
+        android:id="@+id/nom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/arrivee"
+        android:layout_marginLeft="90dp"
+        android:text="nom"
+        android:textSize="17sp"/>
+    <TextView
+        android:id="@+id/p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/n"
+        android:text="Prénom :"
+        android:textSize="17sp"/>
+    <TextView
+        android:id="@+id/prenom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nom"
+        android:layout_marginLeft="90dp"
+        android:text="prenom"
+        android:textSize="17sp"/>
+    <TextView
+        android:id="@+id/et"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/p"
+        android:text="Etat :"
+        android:textSize="17sp"/>
+    <TextView
+        android:id="@+id/etat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/prenom"
+        android:layout_marginLeft="90dp"
+        android:text="etat"
+        android:textSize="17sp"/>
+    <TextView
+        android:id="@+id/tel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et"
+        android:text="Téléphone :"
+        android:textSize="17sp"/>
+    <TextView
+        android:id="@+id/telephone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etat"
+        android:layout_marginLeft="90dp"
+        android:text="telephone"
+        android:textSize="17sp"/>
+    <TextView
+        android:id="@+id/nP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/recuT"
+        android:text="Nombre de place :"
+        android:textSize="17sp"
+        android:layout_marginLeft="220dp"/>
+    <TextView
+        android:id="@+id/nPlace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/recuT"
+        android:layout_marginLeft="360dp"
+        android:text="nb place"
+        android:textSize="17sp"/>
     <Button
         android:id="@+id/btn_recu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/buttons"
         android:layout_marginTop="5dp"
+        android:background="@drawable/buttons"
         android:text="Valider"
-        android:textColor="@android:color/white"
-        android:layout_below="@id/ret"/>
+        android:textColor="@android:color/white" />
 
 </RelativeLayout>
