@@ -40,7 +40,7 @@
         android:padding="20dp" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/nbPlace"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginRight="15dp"
@@ -58,7 +58,7 @@
         android:id="@+id/btn_reservation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/editText"
+        android:layout_below="@id/nbPlace"
         android:text="Reserver"
         android:layout_marginTop="6dp"
         android:layout_marginLeft="20dp"

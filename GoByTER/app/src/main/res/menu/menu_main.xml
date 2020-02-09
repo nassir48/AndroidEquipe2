@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.bambey2019.android.MainActivity">
+    <item
+        android:id="@+id/connexion"
+        android:orderInCategory="100"
+        android:title="Connexion"
+        app:showAsAction="never" />
+
+</menu>

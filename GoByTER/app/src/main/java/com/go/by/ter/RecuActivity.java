@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class RecuActivity extends AppCompatActivity {
-Button btn_recu;
+    Button btn_recu;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.Spinner;
 
@@ -16,10 +17,12 @@ import java.util.ArrayList;
 public class ReservationActivity extends AppCompatActivity {
     Spinner sp;
     Spinner sp2;
+    EditText nbPlace;
     ArrayAdapter<String> adapt;
     ArrayList<String> arrayList = new ArrayList<>();
     Button btn_reservation;
     ProgressDialog loadingBar;
+    String place,depart,arrivee;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_reservation);
@@ -42,16 +45,19 @@ public class ReservationActivity extends AppCompatActivity {
         adapt = new ArrayAdapter<>(getApplicationContext(), android.R.layout.simple_dropdown_item_1line, arrayList);
         sp.setAdapter(adapt);
         sp2.setAdapter(adapt);
-
+        nbPlace=findViewById(R.id.nbPlace);
+        place=nbPlace.getText().toString();
+        depart=sp.toString();
+        arrivee=sp2.toString();
         btn_reservation.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(ReservationActivity.this,OptionReservationActivity.class);
+                intent.putExtra("place",nbPlace.getText().toString());
+                intent.putExtra("depart",sp.getSelectedItem().toString());
+                intent.putExtra("arrivee",sp2.getSelectedItem().toString());
                 startActivity(intent);
-                loadingBar.setTitle("Reservation");
-                loadingBar.setMessage("Veuillez patienter...........");
-                loadingBar.setCanceledOnTouchOutside(true);
-                loadingBar.show();
+
             }
         });
     }
