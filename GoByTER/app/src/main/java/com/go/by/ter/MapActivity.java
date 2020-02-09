@@ -1,7 +1,12 @@
 package com.go.by.ter;
 
+import android.Manifest;
+import android.content.pm.PackageManager;
+import android.location.LocationListener;
 import android.os.Bundle;
 
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
 import androidx.fragment.app.FragmentActivity;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
@@ -12,9 +17,10 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 
-public class MapActivity extends FragmentActivity implements OnMapReadyCallback {
+public class MapActivity extends FragmentActivity implements OnMapReadyCallback, ActivityCompat.OnRequestPermissionsResultCallback{
 
     private GoogleMap mMap;
+    private static final int MY_LOCATION_REQUEST_CODE = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +34,9 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback 
        // LatLng l = new LatLng (10.7,12.9);
       //  Marker m =mMap.addMarker ( new MarkerOptions ().position(l).title ( "Arret Dakar" ));
         // getLastKnownLocation()
+
+
+
     }
 
 
@@ -40,18 +49,24 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback 
      * it inside the SupportMapFragment. This method will only be triggered once the user has
      * installed Google Play services and returned to the app.
      */
+
     @Override
+
+
     public void onMapReady(GoogleMap googleMap) {
+
         mMap = googleMap;
-
         // Add a marker in Sydney and move the camera
-
         LatLng dakar = new LatLng ( 14.63702401647322, -16.4657414921875 );
         mMap.addMarker ( new MarkerOptions ().position ( dakar ).title ( "Dakar" ) );
         mMap.addMarker ( new MarkerOptions ().position ( new LatLng ( 14.33702401647322, -16.4657414921875 ) ).title ( "Pikine" ) );
         mMap.addMarker ( new MarkerOptions ().position ( new LatLng ( 14.33702401647322, -16.6657414921875 ) ).title ( "Thiaroye" ) );
 
         mMap.moveCamera ( CameraUpdateFactory.newLatLng ( dakar ) );
+
+        if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) return;
+        mMap.setMyLocationEnabled(true);
+        mMap.getUiSettings().setMyLocationButtonEnabled(true);
 
     }
 }
