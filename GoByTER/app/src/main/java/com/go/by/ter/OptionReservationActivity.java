@@ -92,14 +92,15 @@ public class OptionReservationActivity extends AppCompatActivity {
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 if (!(dataSnapshot.child("Reservations").child(jour).exists())){
                     HashMap<String, Object> userDataMap= new HashMap<>();
-                    userDataMap.put("Prenom",inputPrenom);
-                    userDataMap.put("Nom",inputName);
-                    userDataMap.put("Telephone",inputPhone);
-                    userDataMap.put("Nombre de Place",inputNbPlace);
-                    userDataMap.put("Jour",jour);
-                    userDataMap.put("Depart",inputDepart);
-                    userDataMap.put("Arrivee",inputArrivee);
-                    rootRef.child("Resevations").child(jour).updateChildren(userDataMap).addOnCompleteListener(new OnCompleteListener<Void>() {
+                    userDataMap.put("prenom",inputPrenom);
+                    userDataMap.put("nom",inputName);
+                    userDataMap.put("telephone",inputPhone);
+                    userDataMap.put("nbPlace",inputNbPlace);
+                    userDataMap.put("jour",jour);
+                    userDataMap.put("depart",inputDepart);
+                    userDataMap.put("arrivee",inputArrivee);
+                    userDataMap.put("etat","Non utilisé");
+                    rootRef.child("Reservations").child(jour).updateChildren(userDataMap).addOnCompleteListener(new OnCompleteListener<Void>() {
                         @Override
                         public void onComplete(@NonNull Task<Void> task) {
                             if(task.isSuccessful()){
@@ -124,4 +125,6 @@ public class OptionReservationActivity extends AppCompatActivity {
             }
         });
     }
+
+
 }
