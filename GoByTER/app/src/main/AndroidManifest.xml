@@ -21,6 +21,8 @@
         <activity android:name=".ArretActivity" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".ReservationActivity" />
+        <activity android:name=".LoginRecuActivity"/>
+        <activity android:name=".MapActivity"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
