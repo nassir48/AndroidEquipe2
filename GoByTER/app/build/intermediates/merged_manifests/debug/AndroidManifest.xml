@@ -29,27 +29,21 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity
-            android:name="com.go.by.ter.AdminActivity"
-            android:label="@string/title_activity_admin2"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name="com.go.by.ter.MainActivity"
-            android:label="@string/title_activity_main"
-            android:theme="@style/AppTheme.NoActionBar" >
+        <activity android:name="com.go.by.ter.RecuActivity" />
+        <activity android:name="com.go.by.ter.LocalisationArretActivity" />
+        <activity android:name="com.go.by.ter.OptionReservationActivity" />
+        <activity android:name="com.go.by.ter.AdminActivity" />
+        <activity android:name="com.go.by.ter.LocalisationActivity" />
+        <activity android:name="com.go.by.ter.ArretActivity" />
+        <activity android:name="com.go.by.ter.LoginActivity" />
+        <activity android:name="com.go.by.ter.ReservationActivity" />
+        <activity android:name="com.go.by.ter.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.go.by.ter.RecuActivity" />
-        <activity android:name="com.go.by.ter.LocalisationArretActivity" />
-        <activity android:name="com.go.by.ter.OptionReservationActivity" />
-        <activity android:name="com.go.by.ter.LocalisationActivity" />
-        <activity android:name="com.go.by.ter.ArretActivity" />
-        <activity android:name="com.go.by.ter.LoginActivity" />
-        <activity android:name="com.go.by.ter.ReservationActivity" />
 
         <service
             android:name="com.google.firebase.components.ComponentDiscoveryService"
