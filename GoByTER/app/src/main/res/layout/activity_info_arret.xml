@@ -21,7 +21,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:text="allée 1 : "
-        android:textColor="@android:color/holo_green_dark"
+        android:textColor="@android:color/holo_red_dark"
         android:textSize="15sp" />
 
     <TextView
@@ -30,8 +30,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:text="Retour 1 :"
-        android:textColor="@android:color/holo_orange_dark"
+        android:textColor="@android:color/holo_red_light"
         android:textSize="15sp" />
+
     <TextView
         android:id="@+id/aller_2"
         android:layout_width="wrap_content"
@@ -47,15 +48,16 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:text="Retour 2 :"
-        android:textColor="@android:color/holo_orange_dark"
+        android:textColor="@android:color/holo_green_light"
         android:textSize="15sp" />
+
     <TextView
         android:id="@+id/aller_3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:text="allée 3 : "
-        android:textColor="@android:color/holo_green_dark"
+        android:textColor="@android:color/holo_orange_dark"
         android:textSize="15sp" />
 
     <TextView
@@ -64,15 +66,16 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:text="Retour 3 :"
-        android:textColor="@android:color/holo_orange_dark"
+        android:textColor="@android:color/holo_orange_light"
         android:textSize="15sp" />
+
     <TextView
         android:id="@+id/aller_4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:text="allée 4 : "
-        android:textColor="@android:color/holo_green_dark"
+        android:textColor="@android:color/holo_blue_dark"
         android:textSize="15sp" />
 
     <TextView
@@ -82,7 +85,7 @@
         android:layout_marginTop="15dp"
         android:layout_marginBottom="15dp"
         android:text="Retour 4 :"
-        android:textColor="@android:color/holo_orange_dark"
+        android:textColor="@android:color/holo_blue_light"
         android:textSize="15sp" />
 
 
