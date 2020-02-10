@@ -130,6 +130,49 @@
         android:layout_marginLeft="360dp"
         android:text="nb place"
         android:textSize="17sp"/>
+
+
+    <TextView
+        android:id="@+id/pr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tel"
+        android:text="Prix :"
+        android:textSize="17sp"/>
+    <TextView
+        android:id="@+id/prix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/telephone"
+        android:layout_marginLeft="90dp"
+        android:text="prix"
+        android:textSize="17sp"/>
+
+    <TextView
+        android:id="@+id/fr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et"
+        android:text="Frais :"
+        android:layout_marginLeft="220dp"
+        android:textSize="17sp"/>
+    <TextView
+        android:id="@+id/frais"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etat"
+        android:layout_marginLeft="270dp"
+        android:text="frais"
+        android:textSize="17sp"/>
+
+    <TextView
+        android:id="@+id/facture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pr"
+        android:text=""
+        android:textSize="17sp"/>
+
     <Button
         android:id="@+id/btn_recu"
         android:layout_width="wrap_content"
@@ -138,5 +181,7 @@
         android:background="@drawable/buttons"
         android:text="Valider"
         android:textColor="@android:color/white" />
+
+
 
 </RelativeLayout>

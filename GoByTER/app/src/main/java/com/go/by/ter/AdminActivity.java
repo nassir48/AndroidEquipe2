@@ -12,23 +12,24 @@ import androidx.appcompat.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 
 public class AdminActivity extends AppCompatActivity {
-
+    Button verifier;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_admin);
-
-
-        FloatingActionButton fab = findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
+        verifier = findViewById(R.id.btn_verifier);
+        verifier.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+            public void onClick(View v) {
+                Intent intent= new Intent(AdminActivity.this,LoginRecuActivity.class);
+                startActivity(intent);
             }
         });
+
+
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

@@ -10,8 +10,9 @@ import android.widget.TextView;
 
 public class RecuActivity extends AppCompatActivity {
     Button btn_recu;
-    TextView depart,arrivee,prenom,nom,telephone,etat,nbPlace;
+    TextView depart,arrivee,prenom,nom,telephone,etat,nbPlace,tarif,frais,facture;
 
+    int prix;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,6 +24,9 @@ public class RecuActivity extends AppCompatActivity {
         telephone = findViewById(R.id.telephone);
         etat = findViewById(R.id.etat);
         nbPlace=findViewById(R.id.nPlace);
+        tarif = findViewById(R.id.prix);
+        frais= findViewById(R.id.frais);
+        facture = findViewById(R.id.facture);
         Intent intent=getIntent();
         String n=intent.getStringExtra("nom");
         String pren=intent.getStringExtra("prenom");
@@ -31,7 +35,9 @@ public class RecuActivity extends AppCompatActivity {
         String arr=intent.getStringExtra("arrivee");
         String et=intent.getStringExtra("etat");
         String tel=intent.getStringExtra("telephone");
-
+       String p=pl;
+        prix=1500*(Integer.parseInt(p));
+        tarif.setText(prix+" FCFA");
         depart.setText(dep);
         arrivee.setText(arr);
         nom.setText(n);
@@ -39,7 +45,9 @@ public class RecuActivity extends AppCompatActivity {
         telephone.setText(tel);
         etat.setText(et);
         nbPlace.setText(pl);
-
+        int f=100*(Integer.parseInt(p));
+        frais.setText(f+"");
+        facture.setText("Vous êtes facturé(e) de "+(prix+f)+" FCFA");
 
 
         btn_recu= (Button) findViewById(R.id.btn_recu);
