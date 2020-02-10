@@ -24,7 +24,7 @@ public class AdminActivity extends AppCompatActivity {
         verifier.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent= new Intent(AdminActivity.this,LoginRecuActivity.class);
+                Intent intent= new Intent(AdminActivity.this,LoginRecuAdminActivity.class);
                 startActivity(intent);
             }
         });

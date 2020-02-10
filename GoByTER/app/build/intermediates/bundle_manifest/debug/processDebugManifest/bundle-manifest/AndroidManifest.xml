@@ -34,6 +34,8 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.go.by.ter.LoginRecuAdminActivity" />
+        <activity android:name="com.go.by.ter.AdminRecuActivity" />
         <activity android:name="com.go.by.ter.RecuActivity" />
         <activity android:name="com.go.by.ter.LocalisationArretActivity" />
         <activity android:name="com.go.by.ter.OptionReservationActivity" />
