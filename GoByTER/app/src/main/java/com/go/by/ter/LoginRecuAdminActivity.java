@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -18,14 +19,14 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 public class LoginRecuAdminActivity extends AppCompatActivity {
-    EditText phone;
+    EditText code;
     Button generer;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login_recu_admin);
 
-        phone = findViewById(R.id.code);
+        code = findViewById(R.id.code);
         generer = findViewById(R.id.btn_recuA);
 
         generer.setOnClickListener(new View.OnClickListener() {
@@ -37,9 +38,13 @@ public class LoginRecuAdminActivity extends AppCompatActivity {
     }
 
     private void verification() {
-        String inputPhone= phone.getText().toString();
+        String inputPhone= code.getText().toString();
+        if (TextUtils.isEmpty(inputPhone)){
+            Toast.makeText(this, "Veuiller saisir le code", Toast.LENGTH_SHORT).show();
+        }else{
+            accesBase(inputPhone);
+        }
 
-        accesBase(inputPhone);
     }
 
     private void accesBase(final String telephone) {

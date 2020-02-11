@@ -13,6 +13,7 @@ import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
 
+import com.go.by.ter.model.Reservations;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.database.DataSnapshot;
@@ -106,9 +107,6 @@ public class OptionReservationActivity extends AppCompatActivity {
                             if(task.isSuccessful()){
                                 Toast.makeText(OptionReservationActivity.this, "Ticket généré avec succès.....", Toast.LENGTH_SHORT).show();
                                 progressDialog.dismiss();
-
-                                Intent intent=new Intent(OptionReservationActivity.this,RecuActivity.class);
-                                startActivity(intent);
                             }else{
                                 progressDialog.dismiss();
                                 Toast.makeText(OptionReservationActivity.this, "Erreur de connection à l'internet! " +
@@ -116,7 +114,38 @@ public class OptionReservationActivity extends AppCompatActivity {
                             }
                         }
                     });
+
+                    accesBase(jour);
                 }
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError) {
+
+            }
+        });
+    }
+
+    private void accesBase(final String telephone) {
+        final DatabaseReference rootRef;
+        rootRef= FirebaseDatabase.getInstance().getReference();
+        rootRef.addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                if (dataSnapshot.child("Reservations").child(telephone).exists()){
+                    Reservations reservation= dataSnapshot.child("Reservations").child(telephone).getValue(Reservations.class);
+                    Toast.makeText(OptionReservationActivity.this, reservation.getPrenom()+"??????????", Toast.LENGTH_SHORT).show();
+                    Intent intent = new Intent(OptionReservationActivity.this,RecuActivity.class);
+                    intent.putExtra("prenom",reservation.getPrenom());
+                    intent.putExtra("nom",reservation.getNom());
+                    intent.putExtra("place",reservation.getNbPlace());
+                    intent.putExtra("depart",reservation.getDepart());
+                    intent.putExtra("arrivee",reservation.getArrivee());
+                    intent.putExtra("etat",reservation.getEtat());
+                    intent.putExtra("telephone",reservation.getTelephone());
+                    startActivity(intent);
+                }else
+                    Toast.makeText(OptionReservationActivity.this, "Erreur", Toast.LENGTH_SHORT).show();
             }
 
             @Override

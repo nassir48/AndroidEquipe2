@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -18,14 +19,14 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 public class LoginRecuActivity extends AppCompatActivity {
-    EditText phone;
+    EditText code;
     Button generer;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login_recu);
 
-        phone = findViewById(R.id.telephone);
+        code = findViewById(R.id.telephone);
         generer = findViewById(R.id.btn_recu);
 
         generer.setOnClickListener(new View.OnClickListener() {
@@ -37,9 +38,12 @@ public class LoginRecuActivity extends AppCompatActivity {
     }
 
     private void verification() {
-        String inputPhone= phone.getText().toString();
-
-        accesBase(inputPhone);
+        String inputPhone= code.getText().toString();
+        if (TextUtils.isEmpty(inputPhone)){
+            Toast.makeText(this, "Veuiller saisir le code", Toast.LENGTH_SHORT).show();
+        }else{
+            accesBase(inputPhone);
+        }
     }
 
     private void accesBase(final String telephone) {
@@ -50,7 +54,6 @@ public class LoginRecuActivity extends AppCompatActivity {
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 if (dataSnapshot.child("Reservations").child(telephone).exists()){
                     Reservations reservation= dataSnapshot.child("Reservations").child(telephone).getValue(Reservations.class);
-                    Toast.makeText(LoginRecuActivity.this, reservation.getPrenom()+"??????????", Toast.LENGTH_SHORT).show();
                     Intent intent = new Intent(LoginRecuActivity.this,RecuActivity.class);
                     intent.putExtra("prenom",reservation.getPrenom());
                     intent.putExtra("nom",reservation.getNom());
