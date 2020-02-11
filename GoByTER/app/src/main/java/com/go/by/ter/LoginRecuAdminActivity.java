@@ -40,7 +40,7 @@ public class LoginRecuAdminActivity extends AppCompatActivity {
     private void verification() {
         String inputPhone= code.getText().toString();
         if (TextUtils.isEmpty(inputPhone)){
-            Toast.makeText(this, "Veuiller saisir le code", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Veuillez saisir le code", Toast.LENGTH_SHORT).show();
         }else{
             accesBase(inputPhone);
         }
@@ -55,7 +55,6 @@ public class LoginRecuAdminActivity extends AppCompatActivity {
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 if (dataSnapshot.child("Reservations").child(telephone).exists()){
                     Reservations reservation= dataSnapshot.child("Reservations").child(telephone).getValue(Reservations.class);
-                    Toast.makeText(LoginRecuAdminActivity.this, reservation.getPrenom()+"??????????", Toast.LENGTH_SHORT).show();
                     Intent intent = new Intent(LoginRecuAdminActivity.this,AdminRecuActivity.class);
                     intent.putExtra("prenom",reservation.getPrenom());
                     intent.putExtra("nom",reservation.getNom());

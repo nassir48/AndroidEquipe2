@@ -40,7 +40,7 @@ public class LoginRecuActivity extends AppCompatActivity {
     private void verification() {
         String inputPhone= code.getText().toString();
         if (TextUtils.isEmpty(inputPhone)){
-            Toast.makeText(this, "Veuiller saisir le code", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Veuillez saisir le code", Toast.LENGTH_SHORT).show();
         }else{
             accesBase(inputPhone);
         }
