@@ -57,10 +57,19 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback,
 
         mMap = googleMap;
         // Add a marker in Sydney and move the camera
-        LatLng dakar = new LatLng ( 14.63702401647322, -16.4657414921875 );
-        mMap.addMarker ( new MarkerOptions ().position ( dakar ).title ( "Dakar" ) );
-        mMap.addMarker ( new MarkerOptions ().position ( new LatLng ( 14.33702401647322, -16.4657414921875 ) ).title ( "Pikine" ) );
-        mMap.addMarker ( new MarkerOptions ().position ( new LatLng ( 14.33702401647322, -16.6657414921875 ) ).title ( "Thiaroye" ) );
+        LatLng dakar = new LatLng ( 14.6757, -17.4334 );
+        mMap.addMarker ( new MarkerOptions ().position ( dakar ).title ( "Arrêt Dakar" ) );
+        mMap.addMarker ( new MarkerOptions ().position ( new LatLng ( 14.7504, -17.3909 ) ).title ( "Arrêt Pikine" ) );
+        mMap.addMarker ( new MarkerOptions ().position ( new LatLng ( 14.7181, -17.4340 ) ).title ( "Arrêt Hanne" ) );
+        mMap.addMarker ( new MarkerOptions ().position ( new LatLng (14.6973, -17.4427 ) ).title ( "Arrêt Colobane" ) );
+        mMap.addMarker ( new MarkerOptions ().position ( new LatLng ( 14.7391, -17.4042 ) ).title ( "Arrêt Beaux Maraîchers" ) );
+        mMap.addMarker ( new MarkerOptions ().position ( new LatLng ( 14.7618, -17.3741 ) ).title ( "Arrêt Thiaroye" ) );
+        mMap.addMarker ( new MarkerOptions ().position ( new LatLng ( 14.7163, -17.1988 ) ).title ( "Arrêt Diamnadio" ) );
+        mMap.addMarker ( new MarkerOptions ().position ( new LatLng ( 14.6985, -17.2282 ) ).title ( "Arrêt Bargny" ) );
+        mMap.addMarker ( new MarkerOptions ().position ( new LatLng ( 14.7157, -17.2710 ) ).title ( "Arrêt Rufisque" ) );
+        mMap.addMarker ( new MarkerOptions ().position ( new LatLng ( 14.7445, -17.3156 ) ).title ( "Arrêt Keur Mbaye Fall" ) );
+        mMap.addMarker ( new MarkerOptions ().position ( new LatLng ( 14.7840, -17.3098 ) ).title ( "Arrêt Keur Massar" ) );
+        mMap.addMarker ( new MarkerOptions ().position ( new LatLng ( 14.7716, -17.3576 ) ).title ( "Arrêt Yeumbeul" ) );
 
         mMap.moveCamera ( CameraUpdateFactory.newLatLng ( dakar ) );
 
