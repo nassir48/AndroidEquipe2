@@ -41,6 +41,9 @@ public class LoginRecuActivity extends AppCompatActivity {
         String inputPhone= code.getText().toString();
         if (TextUtils.isEmpty(inputPhone)){
             Toast.makeText(this, "Veuillez saisir le code", Toast.LENGTH_SHORT).show();
+        }else if (inputPhone.length()<13 || inputPhone.length()>13){
+            Toast.makeText(this, "Le code doit contenir 13 chiffres", Toast.LENGTH_SHORT).show();
+
         }else{
             accesBase(inputPhone);
         }
@@ -54,17 +57,21 @@ public class LoginRecuActivity extends AppCompatActivity {
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 if (dataSnapshot.child("Reservations").child(telephone).exists()){
                     Reservations reservation= dataSnapshot.child("Reservations").child(telephone).getValue(Reservations.class);
-                    Intent intent = new Intent(LoginRecuActivity.this,RecuActivity.class);
-                    intent.putExtra("prenom",reservation.getPrenom());
-                    intent.putExtra("nom",reservation.getNom());
-                    intent.putExtra("place",reservation.getNbPlace());
-                    intent.putExtra("depart",reservation.getDepart());
-                    intent.putExtra("arrivee",reservation.getArrivee());
-                    intent.putExtra("etat",reservation.getEtat());
-                    intent.putExtra("telephone",reservation.getTelephone());
-                    startActivity(intent);
+                    if (reservation.getEtat().equals("Non utilisé")) {
+                        Intent intent = new Intent(LoginRecuActivity.this, RecuActivity.class);
+                        intent.putExtra("prenom", reservation.getPrenom());
+                        intent.putExtra("nom", reservation.getNom());
+                        intent.putExtra("place", reservation.getNbPlace());
+                        intent.putExtra("depart", reservation.getDepart());
+                        intent.putExtra("arrivee", reservation.getArrivee());
+                        intent.putExtra("etat", reservation.getEtat());
+                        intent.putExtra("telephone", reservation.getTelephone());
+                        startActivity(intent);
+                    }else{
+                        Toast.makeText(LoginRecuActivity.this, "Désolé le billet à été utilisé", Toast.LENGTH_LONG).show();
+                    }
                 }else
-                    Toast.makeText(LoginRecuActivity.this, "Erreur", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(LoginRecuActivity.this, "Le code saisi n'esxiste pas !", Toast.LENGTH_SHORT).show();
             }
 
             @Override

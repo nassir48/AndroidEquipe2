@@ -134,7 +134,6 @@ public class OptionReservationActivity extends AppCompatActivity {
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 if (dataSnapshot.child("Reservations").child(telephone).exists()){
                     Reservations reservation= dataSnapshot.child("Reservations").child(telephone).getValue(Reservations.class);
-                    Toast.makeText(OptionReservationActivity.this, reservation.getPrenom()+"??????????", Toast.LENGTH_SHORT).show();
                     Intent intent = new Intent(OptionReservationActivity.this,RecuActivity.class);
                     intent.putExtra("prenom",reservation.getPrenom());
                     intent.putExtra("nom",reservation.getNom());
