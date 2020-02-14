@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 public class RecuActivity extends AppCompatActivity {
     Button btn_recu;
-    TextView depart,arrivee,prenom,nom,telephone,etat,nbPlace,tarif,frais,facture;
+    TextView depart,arrivee,prenom,nom,telephone,etat,nbPlace,tarif,frais,facture,c;
 
     int prix;
     @Override
@@ -27,6 +27,7 @@ public class RecuActivity extends AppCompatActivity {
         tarif = findViewById(R.id.prix);
         frais= findViewById(R.id.frais);
         facture = findViewById(R.id.facture);
+        c=findViewById(R.id.code);
         Intent intent=getIntent();
         String n=intent.getStringExtra("nom");
         String pren=intent.getStringExtra("prenom");
@@ -35,6 +36,7 @@ public class RecuActivity extends AppCompatActivity {
         String arr=intent.getStringExtra("arrivee");
         String et=intent.getStringExtra("etat");
         String tel=intent.getStringExtra("telephone");
+        String code= intent.getStringExtra("code");
        String p=pl;
         prix=1500*(Integer.parseInt(p));
         tarif.setText(prix+" FCFA");
@@ -48,6 +50,7 @@ public class RecuActivity extends AppCompatActivity {
         int f=100*(Integer.parseInt(p));
         frais.setText(f+"");
         facture.setText("Vous êtes facturé(e) de "+(prix+f)+" FCFA");
+        c.setText(code);
 
 
         btn_recu= (Button) findViewById(R.id.btn_recu);

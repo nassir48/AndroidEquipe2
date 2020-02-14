@@ -142,6 +142,7 @@ public class OptionReservationActivity extends AppCompatActivity {
                     intent.putExtra("arrivee",reservation.getArrivee());
                     intent.putExtra("etat",reservation.getEtat());
                     intent.putExtra("telephone",reservation.getTelephone());
+                    intent.putExtra("code",reservation.getJour());
                     startActivity(intent);
                 }else
                     Toast.makeText(OptionReservationActivity.this, "Erreur", Toast.LENGTH_SHORT).show();
