@@ -66,6 +66,7 @@ public class LoginRecuActivity extends AppCompatActivity {
                         intent.putExtra("arrivee", reservation.getArrivee());
                         intent.putExtra("etat", reservation.getEtat());
                         intent.putExtra("telephone", reservation.getTelephone());
+                        intent.putExtra("code",reservation.getJour());
                         startActivity(intent);
                     }else{
                         Toast.makeText(LoginRecuActivity.this, "Désolé le billet à été utilisé", Toast.LENGTH_LONG).show();

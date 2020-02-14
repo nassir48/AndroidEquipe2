@@ -120,7 +120,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/recuT"
-        android:text="Nombre de place :"
+        android:text="Place :"
         android:textSize="17sp"
         android:layout_marginLeft="220dp"/>
     <TextView
@@ -128,7 +128,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/recuT"
-        android:layout_marginLeft="360dp"
+        android:layout_marginLeft="300dp"
         android:text="nb place"
         android:textSize="17sp"/>
 
