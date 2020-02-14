@@ -71,6 +71,8 @@ public class OptionReservationActivity extends AppCompatActivity {
             Toast.makeText(this, "Veuillez saisir votre prenom", Toast.LENGTH_SHORT).show();
         } else if(TextUtils.isEmpty(inputPhone)){
             Toast.makeText(this, "Veuillez saisir votre numero de téléphone ", Toast.LENGTH_SHORT).show();
+        } else if(inputPhone.length()!=9){
+            Toast.makeText(this, "Votre numero de téléphone doit contenir 9 chiffres ", Toast.LENGTH_SHORT).show();
         }else {
             progressDialog.setTitle("Génération de ticket");
             progressDialog.setMessage("Veuillez patienter pendant que nous vérifions les identifiants");
