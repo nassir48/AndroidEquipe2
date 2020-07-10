@@ -34,19 +34,39 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.go.by.ter.LoginRecuAdminActivity" />
-        <activity android:name="com.go.by.ter.AdminRecuActivity" />
-        <activity android:name="com.go.by.ter.RecuActivity" />
-        <activity android:name="com.go.by.ter.LocalisationArretActivity" />
-        <activity android:name="com.go.by.ter.OptionReservationActivity" />
+        <activity
+            android:name="com.go.by.ter.LoginRecuAdminActivity"
+            android:parentActivityName="com.go.by.ter.AdminActivity" />
+        <activity
+            android:name="com.go.by.ter.AdminRecuActivity"
+            android:parentActivityName="com.go.by.ter.AdminActivity" />
+        <activity
+            android:name="com.go.by.ter.RecuActivity"
+            android:parentActivityName="com.go.by.ter.MainActivity" />
+        <activity
+            android:name="com.go.by.ter.LocalisationArretActivity"
+            android:parentActivityName="com.go.by.ter.MainActivity" />
+        <activity
+            android:name="com.go.by.ter.OptionReservationActivity"
+            android:parentActivityName="com.go.by.ter.ReservationActivity" />
         <activity android:name="com.go.by.ter.AdminActivity" />
-        <activity android:name="com.go.by.ter.LocalisationActivity" />
-        <activity android:name="com.go.by.ter.ArretActivity" />
-        <activity android:name="com.go.by.ter.LoginActivity" />
-        <activity android:name="com.go.by.ter.ReservationActivity" />
+        <activity
+            android:name="com.go.by.ter.LocalisationActivity"
+            android:parentActivityName="com.go.by.ter.LocalisationArretActivity" />
+        <activity
+            android:name="com.go.by.ter.ArretActivity"
+            android:parentActivityName="com.go.by.ter.LocalisationArretActivity" />
+        <activity
+            android:name="com.go.by.ter.LoginActivity"
+            android:parentActivityName="com.go.by.ter.MainActivity" />
+        <activity
+            android:name="com.go.by.ter.ReservationActivity"
+            android:parentActivityName="com.go.by.ter.MainActivity" />
         <activity android:name="com.go.by.ter.MapActivity" />
         <activity android:name="com.go.by.ter.LoginRecuActivity" />
-        <activity android:name="com.go.by.ter.MainActivity" >
+        <activity
+            android:name="com.go.by.ter.MainActivity"
+            android:parentActivityName="com.go.by.ter.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

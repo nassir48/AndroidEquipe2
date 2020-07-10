@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:2:1-46:12
-INJECTED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:2:1-46:12
-INJECTED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:2:1-46:12
-INJECTED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:2:1-46:12
+ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:2:1-56:12
 MERGED from [com.github.rey5137:material:1.2.5] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\ac9393ed91dc2a4d6eec228e86b66121\jetified-material-1.2.5\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\7f24ee3d9393411e52642d71fedba405\material-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\a14cdc991101fa09d2d3edad8d9a5a6f\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
@@ -61,22 +61,22 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\PC\.gradle\ca
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\8827c4351437491a8e1cda461391361e\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\86ed991e30b526f7c030370c1d0c8abd\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-database-collection:17.0.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\126eea046660a79d0472a806ecbdf9e9\jetified-firebase-database-collection-17.0.0\AndroidManifest.xml:2:1-7:12
-INJECTED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:2:1-46:12
-INJECTED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:2:1-46:12
-INJECTED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:2:1-56:12
 	package
 		ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:4:5-28
 		INJECTED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:2:1-46:12
+		ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:2:1-56:12
 		INJECTED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:2:1-46:12
+		ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:2:1-56:12
 		INJECTED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:2:11-69
@@ -107,7 +107,7 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] C:
 	android:name
 		ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:8:22-64
 application
-ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:10:5-44:19
+ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:10:5-54:19
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\7f24ee3d9393411e52642d71fedba405\material-1.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\7f24ee3d9393411e52642d71fedba405\material-1.0.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\e979658be247125fa4bb89f468d6c72a\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
@@ -171,81 +171,101 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\PC
 	android:theme
 		ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:16:9-40
 activity#com.go.by.ter.LoginRecuAdminActivity
-ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:18:9-69
+ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:18:9-19:68
+	android:parentActivityName
+		ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:19:13-56
 	android:name
 		ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:18:19-57
 activity#com.go.by.ter.AdminRecuActivity
-ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:19:9-55
+ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:20:9-21:58
+	android:parentActivityName
+		ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:21:13-56
 	android:name
-		ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:19:19-52
+		ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:20:19-52
 activity#com.go.by.ter.RecuActivity
-ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:20:9-50
+ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:22:9-23:57
+	android:parentActivityName
+		ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:23:13-55
 	android:name
-		ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:20:19-47
+		ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:22:19-47
 activity#com.go.by.ter.LocalisationArretActivity
-ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:21:9-63
+ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:24:9-25:57
+	android:parentActivityName
+		ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:25:13-55
 	android:name
-		ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:21:19-60
+		ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:24:19-60
 activity#com.go.by.ter.OptionReservationActivity
-ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:22:9-63
+ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:26:9-27:64
+	android:parentActivityName
+		ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:27:13-62
 	android:name
-		ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:22:19-60
+		ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:26:19-60
 activity#com.go.by.ter.AdminActivity
-ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:23:9-51
+ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:28:9-51
 	android:name
-		ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:23:19-48
+		ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:28:19-48
 activity#com.go.by.ter.LocalisationActivity
-ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:24:9-58
+ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:29:9-30:70
+	android:parentActivityName
+		ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:30:13-68
 	android:name
-		ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:24:19-55
+		ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:29:19-55
 activity#com.go.by.ter.ArretActivity
-ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:25:9-51
+ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:31:9-32:70
+	android:parentActivityName
+		ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:32:13-68
 	android:name
-		ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:25:19-48
+		ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:31:19-48
 activity#com.go.by.ter.LoginActivity
-ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:26:9-51
+ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:33:9-34:57
+	android:parentActivityName
+		ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:34:13-55
 	android:name
-		ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:26:19-48
+		ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:33:19-48
 activity#com.go.by.ter.ReservationActivity
-ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:27:9-57
+ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:35:9-36:57
+	android:parentActivityName
+		ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:36:13-55
 	android:name
-		ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:27:19-54
+		ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:35:19-54
 activity#com.go.by.ter.MapActivity
-ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:28:9-49
+ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:37:9-49
 	android:name
-		ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:28:19-46
+		ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:37:19-46
 activity#com.go.by.ter.LoginRecuActivity
-ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:29:9-55
+ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:38:9-55
 	android:name
-		ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:29:19-52
+		ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:38:19-52
 activity#com.go.by.ter.MainActivity
-ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:30:9-36:20
+ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:39:9-46:20
+	android:parentActivityName
+		ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:40:13-55
 	android:name
-		ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:30:19-47
+		ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:39:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:31:13-35:29
+ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:41:13-45:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:32:17-69
+ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:42:17-69
 	android:name
-		ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:32:25-66
+		ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:42:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:34:17-77
+ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:44:17-77
 	android:name
-		ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:34:27-74
+		ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:44:27-74
 meta-data#com.google.android.geo.API_KEY
-ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:38:9-40:71
+ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:48:9-50:71
 	android:value
-		ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:40:13-68
+		ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:50:13-68
 	android:name
-		ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:39:13-58
+		ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:49:13-58
 meta-data#com.google.android.gms.version
-ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:41:9-43:69
+ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:51:9-53:69
 MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\c721b48b5d7a9c297fcf8dfdbab35239\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
 MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\c721b48b5d7a9c297fcf8dfdbab35239\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:43:13-66
+		ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:53:13-66
 	android:name
-		ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:42:13-58
+		ADDED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml:52:13-58
 uses-sdk
 INJECTED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\PC\Desktop\AndroidEquipe2\GoByTER\app\src\main\AndroidManifest.xml

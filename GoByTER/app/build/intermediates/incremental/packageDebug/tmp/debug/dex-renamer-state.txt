@@ -1,4 +1,4 @@
-#Fri Jul 10 04:39:22 CEST 2020
+#Fri Jul 10 05:25:57 CEST 2020
 base.0=C\:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex
