@@ -1,0 +1,178 @@
+[
+    {
+        "merged": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\build\\intermediates\\res\\merged\\debug\\drawable_buttons.xml.flat",
+        "source": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\src\\main\\res\\drawable\\buttons.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_info_arret.xml.flat",
+        "source": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\src\\main\\res\\layout\\activity_info_arret.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_localisation_arret.xml.flat",
+        "source": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\src\\main\\res\\layout\\activity_localisation_arret.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_admin2.xml.flat",
+        "source": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\src\\main\\res\\layout\\content_admin2.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_main2.xml.flat",
+        "source": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\src\\main\\res\\layout\\content_main2.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\build\\intermediates\\res\\merged\\debug\\drawable_input_design.xml.flat",
+        "source": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\src\\main\\res\\drawable\\input_design.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_option_reservation.xml.flat",
+        "source": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\src\\main\\res\\layout\\activity_option_reservation.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_main.xml.flat",
+        "source": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\src\\main\\res\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_recu.xml.flat",
+        "source": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\src\\main\\res\\layout\\activity_recu.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_reservation.xml.flat",
+        "source": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\src\\main\\res\\layout\\activity_reservation.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logo.PNG.flat",
+        "source": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\src\\main\\res\\drawable\\logo.PNG"
+    },
+    {
+        "merged": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\build\\intermediates\\res\\merged\\debug\\drawable_reservation.PNG.flat",
+        "source": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\src\\main\\res\\drawable\\reservation.PNG"
+    },
+    {
+        "merged": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_map.xml.flat",
+        "source": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\src\\main\\res\\layout\\activity_map.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login_recu_admin.xml.flat",
+        "source": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\src\\main\\res\\layout\\activity_login_recu_admin.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_localisation.xml.flat",
+        "source": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\src\\main\\res\\layout\\activity_localisation.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ter.PNG.flat",
+        "source": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\src\\main\\res\\drawable\\ter.PNG"
+    },
+    {
+        "merged": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_admin_recu.xml.flat",
+        "source": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\src\\main\\res\\layout\\activity_admin_recu.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ticket.png.flat",
+        "source": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\src\\main\\res\\drawable\\ticket.png"
+    },
+    {
+        "merged": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_admin.xml.flat",
+        "source": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\src\\main\\res\\menu\\menu_admin.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_arret.xml.flat",
+        "source": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\src\\main\\res\\layout\\activity_arret.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\build\\intermediates\\res\\merged\\debug\\drawable_gobyter_background.xml.flat",
+        "source": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\src\\main\\res\\drawable\\gobyter_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_admin.xml.flat",
+        "source": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\src\\main\\res\\layout\\activity_admin.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login_recu.xml.flat",
+        "source": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\src\\main\\res\\layout\\activity_login_recu.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\PC\\Desktop\\AndroidEquipe2\\GoByTER\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    }
+]
